@@ -19,7 +19,7 @@ export default async function Home() {
     return (
         <main className={"min-h-screen my-10 space-y-10"}>
             <h1 className={"text-center text-2xl"}>
-                Liste des Pokémon
+                Liste des Pokémons
             </h1>
 
             <ul className="flex flex-wrap gap-6 justify-center">
