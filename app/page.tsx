@@ -23,7 +23,7 @@ export default async function Home() {
             </h1>
 
             <ul className="flex flex-wrap gap-6 justify-center">
-                {data.results.map((pokemon, index) => {
+                {data.results.map((pokemon: { name: string; url: string }, index: number) => {
                     const id = index + 1;
 
                     return (
