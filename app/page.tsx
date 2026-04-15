@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+
 async function getPokemons() {
     const res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=100", {
         cache: "no-store",
